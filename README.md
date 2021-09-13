@@ -1,2 +1,2 @@
 # Femafoot
-Logocoel de gestion descourriers Femafoot
+Logiciel de gestion des courriers Femafoot
