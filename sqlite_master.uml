@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.sqlite_master</OriginalElement>
+  <nodes>
+    <node x="248.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_workflow</node>
+    <node x="296.0" y="269.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_organisme</node>
+    <node x="1229.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.sqlite_sequence</node>
+    <node x="1575.5112179487178" y="293.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_permission</node>
+    <node x="0.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_pays</node>
+    <node x="461.5" y="572.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.courrier_courrier</node>
+    <node x="986.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_session</node>
+    <node x="534.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.sqlite_master</node>
+    <node x="1099.4278846153845" y="656.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_groups</node>
+    <node x="1628.4278846153848" y="656.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group_permissions</node>
+    <node x="564.0" y="281.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_naturescourrier</node>
+    <node x="738.0" y="894.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_migrations</node>
+    <node x="1214.636217948718" y="24.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_content_type</node>
+    <node x="1317.4278846153845" y="656.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_user_permissions</node>
+    <node x="1396.511217948718" y="317.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group</node>
+    <node x="845.4278846153845" y="596.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_admin_log</node>
+    <node x="0.0" y="281.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_typescourrier</node>
+    <node x="968.761217948718" y="209.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user</node>
+    <node x="271.5" y="0.0">b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_typesorganisme</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.courrier_courrier" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_typescourrier" relationship="REFERENCES">
+      <point x="-78.375" y="-138.5" />
+      <point x="487.625" y="551.0" />
+      <point x="138.0" y="551.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group_permissions" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group" relationship="REFERENCES">
+      <point x="-64.0" y="-54.5" />
+      <point x="1692.4278846153848" y="541.0" />
+      <point x="1476.011217948718" y="541.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_organisme" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_typesorganisme" relationship="REFERENCES">
+      <point x="0.0" y="-90.5" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_groups" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group" relationship="REFERENCES">
+      <point x="49.5" y="-54.5" />
+      <point x="1247.9278846153845" y="541.0" />
+      <point x="1476.011217948718" y="541.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.courrier_courrier" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user" relationship="REFERENCES">
+      <point x="78.375" y="-138.5" />
+      <point x="644.375" y="541.0" />
+      <point x="1018.011217948718" y="541.0" />
+      <point x="-49.25" y="150.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_groups" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user" relationship="REFERENCES">
+      <point x="-49.5" y="-54.5" />
+      <point x="1148.9278846153845" y="551.0" />
+      <point x="1159.886217948718" y="551.0" />
+      <point x="1159.886217948718" y="541.0" />
+      <point x="1116.511217948718" y="541.0" />
+      <point x="49.25" y="150.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_group_permissions" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_permission" relationship="REFERENCES">
+      <point x="64.0" y="-54.5" />
+      <point x="1820.4278846153848" y="531.0" />
+      <point x="1677.5112179487178" y="531.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.courrier_courrier" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_naturescourrier" relationship="REFERENCES">
+      <point x="26.125" y="-138.5" />
+      <point x="592.125" y="531.0" />
+      <point x="712.0" y="531.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_permission" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_content_type" relationship="REFERENCES">
+      <point x="0.0" y="-66.5" />
+      <point x="1677.5112179487178" y="183.0" />
+      <point x="1328.636217948718" y="183.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_user_permissions" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user" relationship="REFERENCES">
+      <point x="-72.75" y="-54.5" />
+      <point x="1390.1778846153845" y="551.0" />
+      <point x="1159.886217948718" y="551.0" />
+      <point x="1159.886217948718" y="541.0" />
+      <point x="1116.511217948718" y="541.0" />
+      <point x="49.25" y="150.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user_user_permissions" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_permission" relationship="REFERENCES">
+      <point x="72.75" y="-54.5" />
+      <point x="1535.6778846153848" y="531.0" />
+      <point x="1677.5112179487178" y="531.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.courrier_courrier" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.dictionnaire_organisme" relationship="REFERENCES">
+      <point x="-26.125" y="-138.5" />
+      <point x="539.875" y="541.0" />
+      <point x="420.0" y="541.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_admin_log" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_content_type" relationship="REFERENCES">
+      <point x="-58.5" y="-114.5" />
+      <point x="903.9278846153845" y="531.0" />
+      <point x="917.9375" y="531.0" />
+      <point x="917.9375" y="183.0" />
+      <point x="1328.636217948718" y="183.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.django_admin_log" target="b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.auth_user" relationship="REFERENCES">
+      <point x="58.5" y="-114.5" />
+      <point x="1020.9278846153845" y="551.0" />
+      <point x="1159.886217948718" y="551.0" />
+      <point x="1159.886217948718" y="541.0" />
+      <point x="1116.511217948718" y="541.0" />
+      <point x="49.25" y="150.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.33438320209973754" showDependencies="false" x="942.5" y="561.5" />
+  <SelectedNodes>
+    <node>b8f1bb39-b625-4b65-8e04-75120a8be49d.TABLE:main.sqlite_master</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
